@@ -15,4 +15,9 @@
         android:name="com.hsyncnblk.kuaforumapp.SignUpFragment"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/kuaforLoginFragment"
+        android:name="com.hsyncnblk.kuaforumapp.KuaforLoginFragment"
+        android:label="fragment_kuafor_login"
+        tools:layout="@layout/fragment_kuafor_login" />
 </navigation>
