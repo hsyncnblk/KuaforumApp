@@ -47,4 +47,9 @@
             android:id="@+id/kuaforSignUp_to_login"
             app:destination="@id/loginFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/musteriMainFragment"
+        android:name="com.hsyncnblk.kuaforumapp.MusteriMainFragment"
+        android:label="fragment_musteri_main"
+        tools:layout="@layout/fragment_musteri_main" />
 </navigation>
