@@ -16,6 +16,9 @@
         <action
             android:id="@+id/login_to_kuaforLogin"
             app:destination="@id/kuaforLoginFragment" />
+        <action
+            android:id="@+id/login_to_musteriMain"
+            app:destination="@id/musteriMainFragment" />
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
@@ -25,6 +28,9 @@
         <action
             android:id="@+id/signUp_to_login"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/signUp_to_musteriMain"
+            app:destination="@id/musteriMainFragment" />
     </fragment>
     <fragment
         android:id="@+id/kuaforLoginFragment"
