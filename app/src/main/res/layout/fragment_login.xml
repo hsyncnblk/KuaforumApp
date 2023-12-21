@@ -57,7 +57,7 @@
         android:backgroundTint="@color/orange"
         android:ems="10"
         android:hint="Parolanız..."
-        android:inputType="text"
+        android:inputType="text|textPassword"
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -65,20 +65,20 @@
         app:layout_constraintTop_toBottomOf="@+id/etMusteriUsername" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonLoginGirisYap"
         android:layout_width="128dp"
         android:layout_height="59dp"
         android:layout_marginTop="25dp"
         android:backgroundTint="@color/grey"
         android:text="Giriş Yap"
         android:textColor="@color/orange"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLoginKayitOl"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etMusteriPassword" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonLoginKayitOl"
         android:layout_width="128dp"
         android:layout_height="59dp"
         android:layout_marginTop="25dp"
@@ -87,11 +87,11 @@
         android:textColor="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/buttonLoginGirisYap"
         app:layout_constraintTop_toBottomOf="@+id/etMusteriPassword" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvMusteriUnuttum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -100,10 +100,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLoginGirisYap" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvKuaforGo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"

@@ -9,15 +9,42 @@
         android:id="@+id/loginFragment"
         android:name="com.hsyncnblk.kuaforumapp.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/login_to_signUp"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/login_to_kuaforLogin"
+            app:destination="@id/kuaforLoginFragment" />
+    </fragment>
     <fragment
         android:id="@+id/signUpFragment"
         android:name="com.hsyncnblk.kuaforumapp.SignUpFragment"
         android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" />
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/signUp_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
     <fragment
         android:id="@+id/kuaforLoginFragment"
         android:name="com.hsyncnblk.kuaforumapp.KuaforLoginFragment"
         android:label="fragment_kuafor_login"
-        tools:layout="@layout/fragment_kuafor_login" />
+        tools:layout="@layout/fragment_kuafor_login" >
+        <action
+            android:id="@+id/kuaforLogin_to_kuaforSignUp"
+            app:destination="@id/kuaforSignUpFragment" />
+        <action
+            android:id="@+id/kuaforLogin_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kuaforSignUpFragment"
+        android:name="com.hsyncnblk.kuaforumapp.KuaforSignUpFragment"
+        android:label="fragment_kuafor_sign_up"
+        tools:layout="@layout/fragment_kuafor_sign_up" >
+        <action
+            android:id="@+id/kuaforSignUp_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
 </navigation>
