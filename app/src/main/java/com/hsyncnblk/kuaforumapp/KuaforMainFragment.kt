@@ -35,6 +35,9 @@ class KuaforMainFragment : Fragment() {
             Navigation.findNavController(it).navigate(R.id.kuaforMain_to_login)
 
         }
+        binding.buttonProfilegitKuafor.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.kuaforMain_to_kuaforProfil)
+        }
 
 
     }

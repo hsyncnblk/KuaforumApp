@@ -8,9 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="277dp"
-        android:layout_height="213dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="231dp"
+        android:layout_height="170dp"
         android:src="@drawable/resim2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -38,7 +37,7 @@
         android:id="@+id/etMusteriKayitUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="@color/orange"
         android:ems="10"
         android:hint="E-posta adresiniz..."
@@ -46,15 +45,14 @@
         android:textColor="@color/orange"
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etMusteriName" />
+        app:layout_constraintTop_toBottomOf="@+id/etMusteriIIce" />
 
     <EditText
         android:id="@+id/etMusteriKayitPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="@color/orange"
         android:ems="10"
         android:hint="Parolanız..."
@@ -69,7 +67,7 @@
         android:id="@+id/etMusteriName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="25dp"
         android:backgroundTint="@color/orange"
         android:ems="10"
         android:hint="İsim Soyisim"
@@ -84,7 +82,7 @@
         android:id="@+id/buttonSignUpKayitOl"
         android:layout_width="128dp"
         android:layout_height="59dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="10dp"
         android:backgroundTint="@color/grey"
         android:text="Kayıt ol"
         android:textColor="@color/orange"
@@ -104,18 +102,51 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/etMusteriKayitPasswordTekrar"
+        android:id="@+id/etMusteriTel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="@color/orange"
+
         android:ems="10"
-        android:hint="Tekrar parola giriniz.."
+        android:hint="Telefon numaranız..."
         android:inputType="text"
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etMusteriKayitPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etMusteriName" />
+
+    <EditText
+        android:id="@+id/etMusteriSehir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="Hangi şehirdesiniz..."
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMusteriTel" />
+
+    <EditText
+        android:id="@+id/etMusteriIIce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="Hangi İlçedesiniz..."
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMusteriSehir" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

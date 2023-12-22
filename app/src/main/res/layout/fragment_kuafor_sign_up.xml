@@ -11,22 +11,21 @@
         android:id="@+id/etKuaforSignUpUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="@color/orange"
         android:ems="10"
         android:hint="E-posta adresiniz..."
         android:inputType="text"
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/etKuaforAdres" />
 
     <EditText
         android:id="@+id/etKuaforSignUpPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="@color/orange"
         android:ems="10"
         android:hint="Parolanız..."
@@ -39,8 +38,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="277dp"
-        android:layout_height="213dp"
+        android:layout_width="224dp"
+        android:layout_height="166dp"
         android:layout_marginTop="10dp"
         android:src="@drawable/resim2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,28 +76,93 @@
         android:id="@+id/btnKuaforKayitOl"
         android:layout_width="128dp"
         android:layout_height="59dp"
-        android:layout_marginBottom="40dp"
         android:backgroundTint="@color/grey"
         android:text="Kayıt Ol"
         android:textColor="@color/orange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/etKuaforSignUpPasswordTekrar"
+        android:id="@+id/etKuaforAdiKayit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="5dp"
         android:backgroundTint="@color/orange"
         android:ems="10"
-        android:hint="Tekrar parola giriniz..."
-        android:inputType="text|textPassword"
+
+        android:hint="Kuaför adı..."
+        android:inputType="text"
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etKuaforSignUpPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/etKuaforKayitTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="Telefon numaranız..."
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKuaforAdiKayit" />
+
+    <EditText
+        android:id="@+id/etKuaforSehir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="Şehir..."
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKuaforKayitTel" />
+
+    <EditText
+        android:id="@+id/etKuaforIlce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+        android:hint="İlçe..."
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKuaforSehir" />
+
+    <EditText
+        android:id="@+id/etKuaforAdres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/orange"
+        android:ems="10"
+
+        android:hint="Açık adres..."
+        android:inputType="text"
+        android:textColor="@color/orange"
+        android:textColorHint="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKuaforIlce" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

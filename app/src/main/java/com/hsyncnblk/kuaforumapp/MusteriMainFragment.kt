@@ -40,6 +40,10 @@ class MusteriMainFragment : Fragment() {
 
         }
 
+        binding.buttonprofilegit.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.musteriMain_to_musteriProfil)
+        }
+
     }
 
 
