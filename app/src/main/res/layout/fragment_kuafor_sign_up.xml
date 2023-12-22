@@ -8,25 +8,10 @@
     tools:context=".KuaforSignUpFragment">
 
     <EditText
-        android:id="@+id/etKuaforName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:backgroundTint="@color/orange"
-        android:ems="10"
-        android:hint="Kuaför ismi"
-        android:inputType="text"
-        android:textColorHint="@color/orange"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <EditText
         android:id="@+id/etKuaforSignUpUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="35dp"
         android:backgroundTint="@color/orange"
         android:ems="10"
         android:hint="E-posta adresiniz..."
@@ -35,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etKuaforName" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/etKuaforSignUpPassword"
@@ -105,12 +90,15 @@
         android:id="@+id/etKuaforSignUpPasswordTekrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:backgroundTint="@color/orange"
         android:ems="10"
         android:hint="Tekrar parola giriniz..."
         android:inputType="text|textPassword"
         android:textColorHint="@color/orange"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="469dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKuaforSignUpPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
