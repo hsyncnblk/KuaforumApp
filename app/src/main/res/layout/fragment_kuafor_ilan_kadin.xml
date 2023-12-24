@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KuaforIlanKadinFragment">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Fiyat bilgilerini giriniz"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvKadinSacKesim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        android:text="Saç kesimi"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/tvKadinSacBoya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Saç boyası"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvKadinSacKesim" />
+
+    <TextView
+        android:id="@+id/tvKadinSacVeCilt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Saç ve Cilt bakımı"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvKadinSacBoya" />
+
+    <TextView
+        android:id="@+id/tvKadinSacManikur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Manikür Pedikür"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvKadinSacVeCilt" />
+
+    <TextView
+        android:id="@+id/tvKadinSacMakyaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Makyaj"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvKadinSacManikur" />
+
+    <TextView
+        android:id="@+id/tvKadinSacGelin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Gelin Saçı"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvKadinSacMakyaj" />
+
+    <EditText
+        android:id="@+id/etKadinSacKesimFiyat"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Fiyat..."
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/etKadinSacBoyaFiyat"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Fiyat..."
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKadinSacKesimFiyat" />
+
+    <EditText
+        android:id="@+id/etKadinSacCiltFiyat"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Fiyat..."
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKadinSacBoyaFiyat" />
+
+    <EditText
+        android:id="@+id/etKadinManikurFiyat"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Fiyat..."
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKadinSacCiltFiyat" />
+
+    <EditText
+        android:id="@+id/etKadinMakyajFiyat"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Fiyat..."
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKadinManikurFiyat" />
+
+    <EditText
+        android:id="@+id/etKadinGelinFiyat"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Fiyat..."
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKadinMakyajFiyat" />
+
+    <Button
+        android:id="@+id/btnKadinIlanPaylas"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/grey"
+        android:text="Paylaş"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etKadinGelinFiyat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

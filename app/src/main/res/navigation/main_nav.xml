@@ -93,5 +93,20 @@
         android:name="com.hsyncnblk.kuaforumapp.MusteriProfilFragment"
         android:label="fragment_musteri_profil"
         tools:layout="@layout/fragment_musteri_profil" />
+    <fragment
+        android:id="@+id/kuaforIlanPaylasFragment"
+        android:name="com.hsyncnblk.kuaforumapp.KuaforIlanPaylasFragment"
+        android:label="fragment_kuafor_ilan_paylas"
+        tools:layout="@layout/fragment_kuafor_ilan_paylas" />
+    <fragment
+        android:id="@+id/kuaforIlanErkekFragment"
+        android:name="com.hsyncnblk.kuaforumapp.KuaforIlanErkekFragment"
+        android:label="fragment_kuafor_ilan_erkek"
+        tools:layout="@layout/fragment_kuafor_ilan_erkek" />
+    <fragment
+        android:id="@+id/kuaforIlanKadinFragment"
+        android:name="com.hsyncnblk.kuaforumapp.KuaforIlanKadinFragment"
+        android:label="fragment_kuafor_ilan_kadin"
+        tools:layout="@layout/fragment_kuafor_ilan_kadin" />
 
 </navigation>
