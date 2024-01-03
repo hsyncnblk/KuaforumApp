@@ -108,5 +108,10 @@
         android:name="com.hsyncnblk.kuaforumapp.KuaforIlanKadinFragment"
         android:label="fragment_kuafor_ilan_kadin"
         tools:layout="@layout/fragment_kuafor_ilan_kadin" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.hsyncnblk.kuaforumapp.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
 
 </navigation>
